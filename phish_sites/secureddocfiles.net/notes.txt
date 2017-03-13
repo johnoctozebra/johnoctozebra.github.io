@@ -1,0 +1,1 @@
+When submitting a form it takes you to link.php which will check if your email is correct (anything with @gmail.comw will do) and will either send you to the same login page with error text or to the legitimate Linkedin signup page. 

@@ -1,0 +1,261 @@
+#header{
+width: 100%;
+height: 2.5cm;
+background-color:  #111111;
+padding-top:0%;
+margin-left: 0%;
+padding-left: 0%;
+
+}
+
+#body{
+	width: 100%;
+	height: 100%;
+	margin-top: 0%;
+	padding-top: 0%;
+	margin-left: 0%;
+padding-left: 0%;
+background: -webkit-linear-gradient(top, black, black 33.4%, white 30%, white);
+}
+
+#wrapper{
+	width:21cm;
+	height: 11cm;
+	margin-bottom: 2cm;
+	margin: auto;
+}
+
+#middle{
+	width:21.5cm;
+	height: 80%;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px;
+
+	
+}
+
+#middle1{
+	width:21.5cm;
+	height: 80%;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px;
+text-align: center;
+	
+}
+
+
+#top{
+	background-color: black;
+	height: 20%;
+}
+
+
+#footer{
+	width:21cm;
+	height: 1%;
+	background-color:  #ffffff;
+	font-family: Arial;
+	font-size: 10px;
+	margin-top: 2cm;
+	margin-left: auto;
+
+}
+
+.logo{
+	
+	margin-left: 16.1%;
+	margin-top: 10px;
+}
+
+.logo2{
+	
+	margin-left: 1%;
+	margin-top: 10px;
+	
+}
+
+.leftimage{
+	
+	width: 65%;
+	height: 10.5cm;
+	margin-left: 32%;
+	margin-top: 1cm;
+}
+
+.plogon{
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.userbox{
+	width: 4.4cm;
+	border:1px solid #BCC0C4;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: Arial;
+	padding-left: 5px;
+	border-width: 1px;
+	
+}
+
+.userbox1{
+	width: 6.4cm;
+	border:1px solid #BCC0C4;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: Arial;
+	padding-left: 5px;
+	border-width: 1px;
+	
+}
+
+.leftfooter{
+	float: left;
+	margin-left: 8.2cm;
+}
+
+.rightfooter{
+	float: right;
+	margin-right: 8.2cm;
+}
+
+.tacbox{
+	width: 2cm;
+	height: 0.6cm;
+	
+	
+	font-family: Arial;
+	padding-left: 5px;
+	
+}
+
+.tacheader{
+	border-bottom-style: dotted;
+	border-top-style: dotted;
+	border-width: 1px;
+	background-color: #efefef;
+}
+
+.tacbody{
+	border-bottom-style: dotted;
+	padding-top: 15px;
+	border-width: 1px;
+	background-color: #faf8f8;
+}
+
+.proceedbutton{
+	background-color: #d62f0e;
+	border: 0px;
+	width: 2cm;
+	height: 0.9cm;
+	font-family: Arial;
+	color: white;
+
+}
+
+.tableleft{
+	width: 375px;
+	padding: 2% 2% 0% 2%;
+	border-radius: 12px;
+	height: 8cm;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #silver;
+	
+	top: 0px;
+  background-color:#efefef;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#efefef, endColorstr=#F0F0F0);
+ background-image:-moz-linear-gradient(top, #efefef 39%, #F0F0F0 14%,#ffffff 100%);
+background-image:linear-gradient(top, #efefef 39%, #F0F0F0 14%,#ffffff 100%);
+background-image:-webkit-linear-gradient(top, #efefef 39%, #F0F0F0 14%,#ffffff 100%);
+background-image:-o-linear-gradient(top, #efefef 39%, #F0F0F0 14%,#ffffff 100%);
+background-image:-ms-linear-gradient(top, #efefef 39%, #F0F0F0 14%,#ffffff 100%);
+ background-image:-webkit-gradient(linear, right top, right bottom, color-stop(39%,#efefef), color-stop(14%,#F0F0F0),color-stop(100%,#ffffff));
+	
+
+	
+	
+}
+
+.tableright{
+	width: 11cm;
+	padding: 0%;
+	
+}
+
+.tableright2{
+	border: none;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px; 
+	font-weight: normal;
+	float: right;
+	text-align: left;
+	margin-left: 30px;
+}
+.maintable{
+	width: 100%;
+	height: 9.5cm;
+	margin-top: 0.4cm;
+	margin-right: 0.4cm;
+	
+	margin-bottom: 25px;
+	border: none;
+	
+}
+
+.pone{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	padding-bottom:5px
+}
+
+.ptwo{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	padding-top:1px;
+	font-weight: bolder;
+	
+	
+}
+
+.sansserif3 {font-family:Arial,sans-serif;font-size:13px; font-weight: bolder; }
+
+.nextbutton{
+	padding-top: 2px;
+}
+
+span.left{
+	float: left;
+}
+
+span.right{
+	float: right;
+}
+
+.spanbuttons{
+	margin-top: 15px;
+}
+
+.forgotpass{
+	font-family:Arial,sans-serif;font-size:11px; font-weight: bolder;
+	color: red;
+	margin-top: 25px;
+}
+
+.reset{
+	font-family:Arial,sans-serif;font-size:11px; font-weight: normal;
+	
+	margin-top: 5px;
+}
+
+.rightimages{
+	float: right;
+	margin-top: 1cm;
+}
+
+.submitbotton{
+	background: url('next_btn.png');
+}

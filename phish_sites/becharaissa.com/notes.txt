@@ -1,0 +1,3 @@
+This site was not able to scrape properly because serverside php redirects user to each additional step (Enter any bogus Customer number -> steal pin number -> steal credit card, birth date, etc.) and presumably stores credentials too. 
+
+Thus, all form submits that go to .php pages are changed to go to the subsquent .html page the user would normall experience. Original redirects are commented out above the replaced form.  

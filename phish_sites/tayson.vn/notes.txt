@@ -1,0 +1,7 @@
+Forms originally go to .php (presumably to store credentials) and does not verif
+y if email is in correct format or if forms or empty. The .php script redirects
+the user to a different domain showing a PDF. This PDF was downloaded and links
+to the php script goes to that PDF file to replicate the behavior. All original
+HTML code has been commented out and new code is under them.
+
+The original URL for the PDF: http://www.fmbwealth.com/sites/default/files/CEG_JWMC_evan_article_pages_with_foto.pdf looks benign and was chosen randomly. 

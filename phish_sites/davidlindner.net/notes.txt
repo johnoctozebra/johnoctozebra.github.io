@@ -1,0 +1,17 @@
+Actual site now gives a 403 forbidden and no longer works. After putting in bogus credentials into either Office, Aol, or Other log in, it will also give you a 403 Forbidden message as that was not properly scraped. The original phishing site took any credentials and took you to the page. 
+
+Because of the filename size limit, folders and filenames  had to manually be renamed and changed in HTML to work. 
+
+/davidlindner.net/ .. -> /davidlindner.net/hi
+
+
+The following three phishing login site names where changed because they were too long for server. 
+/davidlindner.net/hi/Outlook/office/de104c6b7643e5b775825187b19ccf6c/
+====================================================================
+al.php@cmd=login_submit&id=bc2b13966f9d94725af4a331362aefc7bc2b13966f9d94725af4a331362aefc7&session=bc2b13966f9d94725af4a331362aefc7bc2b13966f9d94725af4a331362aefc7 -> al.php@cmd=login_submit.html
+
+othr.php@cmd=login_submit&id=bc2b13966f9d94725af4a331362aefc7bc2b13966f9d94725af4a331362aefc7&session=bc2b13966f9d94725af4a331362aefc7bc2b13966f9d94725af4a331362aefc7 -> othr.php@cmd=login_submit.html
+
+office.php@cmd=login_submit&id=bc2b13966f9d94725af4a331362aefc7bc2b13966f9d94725af4a331362aefc7&session=bc2b13966f9d94725af4a331362aefc7bc2b13966f9d94725af4a331362aefc7 -> office.php@cmd-login_submit
+
+The same changed were made in /davidlindner.net/hi/Outlook/office//eb266d9fcda4deb05e0f2301d7bb3564/

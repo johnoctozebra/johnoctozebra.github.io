@@ -1,0 +1,1 @@
+Original URL went to a .php file with title Success in tab which then redirects user to the legitimate https://squareup.com/ website. 

@@ -1,0 +1,620 @@
+/* ::::: https://account.activedirectory.windowsazure.com/1.0.0.874/Firefox/en-US/css/MasterStyles.css ::::: */
+
+* {  }
+html, body { margin: 0px auto; padding: 0px; height: 100%; }
+body, input, select, textarea, button, legend { text-align: left; font-weight: normal; font-family: "Segoe UI",Tahoma,Verdana,Arial,sans-serif; font-size: 10pt; line-height: 14pt; letter-spacing: 0.03em; color: rgb(67, 81, 91); }
+body { background-color: rgb(238, 238, 238); overflow: auto; text-align: left; }
+form { background-color: rgb(238, 238, 238); margin: 0px auto; position: relative; width: 960px; }
+.Page-Metro body, .Page-Metro input, .Page-Metro select, .Page-Metro textarea, .Page-Metro button, .Page-Metro legend { font-family: "Segoe WPC SemiLight","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 12px; line-height: 16px; letter-spacing: 0.01em; color: rgb(102, 102, 102); }
+html.PageWithNavBar-Metro { overflow: visible; }
+.PageWithNavBar-Metro body { overflow: visible; }
+.PageWithNavBar-Metro form { height: 100%; overflow: visible; }
+a { color: rgb(2, 172, 237); text-decoration: none; }
+.Page-Metro a { color: rgb(48, 134, 187); }
+a:hover { text-decoration: underline; cursor: pointer; }
+img { border-style: none; }
+.clipDiv { position: relative; overflow: hidden; display: inline-block; }
+.clipDiv img, .clipDiv input { position: absolute; margin: 0px; padding: 0px; width: auto; height: auto; }
+input[type="text"], input[type="password"], input[type="file"], textarea { margin: 1px; border: 1px solid rgb(198, 223, 243); line-height: normal; }
+.Page-Metro input[type="text"], .Page-Metro input[type="password"], .Page-Metro input[type="file"], .Page-Metro textarea .Page-Metro select { border: 1px solid rgb(157, 180, 198); }
+input[type="text"]:disabled, input[type="password"]:disabled, textarea:disabled { color: rgb(166, 166, 166); background-color: rgb(242, 247, 252); }
+button, input[type="button"], input[type="reset"], input[type="submit"] { padding: 0px 0px 1px; min-width: 100px; height: 30px; overflow: visible; }
+a.Button, a.Button:link, a.Button:visited, a.Button-focus, a.Button-focus:link, a.Button-focus:visited, a.Button-hover, a.Button-hover:link, a.Button-hover:visited, a.Button-active, a.Button-active:link, a.Button-active:visited, span.Button-disabled { display: inline-block; text-decoration: none; margin: 5px; min-width: 70px; padding: 0px; }
+.Page-Metro a.Button, .Page-Metro a.Button:link, .Page-Metro a.Button:visited, .Page-Metro a.Button-focus, .Page-Metro a.Button-focus:link, .Page-Metro a.Button-focus:visited, .Page-Metro a.Button-hover, .Page-Metro a.Button-hover:link, .Page-Metro a.Button-hover:visited, .Page-Metro a.Button-active, .Page-Metro a.Button-active:link, .Page-Metro a.Button-active:visited, .Page-Metro span.Button-disabled { min-width: 100px; }
+a.Button span, a.Button-focus span, a.Button-hover span, a.Button-active span, span.Button-disabled span { text-align: center; vertical-align: baseline; line-height: 10pt; font-size: 10pt; border-left: 1px solid; border-right: 1px solid; margin: 0px; padding: 1px 12px 2px; display: block; white-space: nowrap; }
+.Page-Metro a.Button span, .Page-Metro a.Button-focus span, .Page-Metro a.Button-hover span, .Page-Metro a.Button-active span, .Page-Metro span.Button-disabled span { border-width: 2px; border-style: solid; border-color: -moz-use-text-color; padding: 6px 33px; text-transform: lowercase; line-height: 13px; font-size: 13px; }
+a.Button span, a.Button b, a.Button i, a.Button u { color: rgb(67, 81, 91); background-color: rgb(0, 173, 238); border-color: rgb(0, 173, 238); }
+.Page-Metro a.Button span, .Page-Metro a.Button b, .Page-Metro a.Button i, .Page-Metro a.Button u { color: rgb(255, 255, 255); background-color: rgb(0, 173, 238); border-color: rgb(0, 173, 238); }
+a.Button-focus span, a.Button-focus b, a.Button-focus i, a.Button-focus u { color: rgb(67, 81, 91); background-color: rgb(248, 251, 253); border-color: rgb(2, 172, 237); }
+.Page-Metro a.Button-focus span, .Page-Metro a.Button-focus b, .Page-Metro a.Button-focus i, .Page-Metro a.Button-focus u { color: rgb(255, 255, 255); background-color: rgb(0, 153, 204); border-color: rgb(0, 153, 204); }
+span.Button-disabled span, span.Button-disabled b, span.Button-disabled i, span.Button-disabled u { color: rgb(195, 205, 210); background-color: rgb(248, 251, 253); border-color: rgb(213, 222, 226); }
+.Page-Metro span.Button-disabled span, .Page-Metro span.Button-disabled b, .Page-Metro span.Button-disabled i, .Page-Metro span.Button-disabled u { color: rgb(198, 198, 198); background-color: rgb(241, 241, 242); border-color: rgb(241, 241, 242); }
+a.CancelButton, a.CancelButton-focus, a.CancelButton-hover, a.CancelButton-active, span.CancelButton-disabled { display: inline-block; margin: 5px; padding: 0px; }
+a.CancelButton span, a.CancelButton-focus span, a.CancelButton-hover span, a.CancelButton-active span, span.CancelButton-disabled span { text-align: center; vertical-align: baseline; line-height: 10pt; margin: 0px; padding: 1px 3px 2px; display: block; white-space: nowrap; }
+.Page-Metro a.CancelButton span, .Page-Metro a.CancelButton-focus span, .Page-Metro a.CancelButton-hover span, .Page-Metro a.CancelButton-active span, .Page-Metro span.CancelButton-disabled span { line-height: 13px; font-size: 13px; padding: 7px 2px 7px 1px; text-transform: lowercase; }
+span.CancelButton-disabled span { color: rgb(170, 170, 170); }
+.Page-Metro span.CancelButton-disabled span { color: rgb(198, 198, 198); }
+div.PageLayout {  }
+.PageLayout-Padding { clear: both; text-align: right; }
+.Page-Metro .PageLayout-Padding { height: 40px; padding: 0px 0px 0px 25px; text-align: left; line-height: 40px; }
+div.PageLayout table.Content { width: 700px; height: 100%; table-layout: fixed; }
+div.PageLayout td.Content { width: 700px; height: 100%; padding: 0px; vertical-align: top; background-color: rgb(255, 255, 255); }
+.Page-Metro div.PageLayout td.Content { padding-left: 20px; padding-right: 40px; }
+div.PageLayout-Panel { float: left; }
+div.PageLayout-Panel > div { padding-left: 26px; padding-right: 26px; }
+.Page-Metro div.PageLayout-Panel > div { padding-left: 0px; padding-right: 40px; }
+td.PageLayout-ContentPanelNoNav { width: 960px; height: 100%; vertical-align: top; }
+.shell-page-title { font-family: "Segoe UI Light",Verdana,Helvetica,sans-serif; font-size: 28px; line-height: 40px; text-transform: lowercase; color: rgb(68, 68, 68); }
+div.PageLayout-Panels { min-height: 430px; }
+.PropertySheet { display: inline-block; }
+.PropertySheet .ContentContainer { margin-top: 4px; }
+.Page-Metro .PropertySheet .ContentContainer { margin-top: 0px; margin-bottom: 15px; }
+.PropertySheet .Spacer { height: 0px; margin-bottom: 15px; }
+tr.PropertySheetItem .Title { max-width: 150px; padding: 3px 0px; vertical-align: middle; text-transform: uppercase; }
+.Page-Metro tr.PropertySheetItem .Title { max-width: none; padding: 0px 0px 2px; }
+tr.PropertySheetItem td.Content { padding: 3px 0px; vertical-align: middle; margin: 0px 26px; width: auto; }
+.Page-Metro tr.PropertySheetItem td.Content { padding: 0px 0px 10px; vertical-align: top; }
+.Page-Metro tr.PropertySheetItem td.Content input[type="text"], .Page-Metro tr.PropertySheetItem td.Content input[type="password"], .Page-Metro tr.PropertySheetItem td.Content textarea, .Page-Metro tr.PropertySheetItem td.Content select { width: 300px; padding-top: 2px; padding-bottom: 2px; }
+div.DialogManager-Shield { position: fixed; top: 0px; left: 0px; height: 100%; width: 100%; opacity: 0.5; background-color: black; }
+.Page-Metro div.DialogManager-Shield { opacity: 0.7; }
+div.DialogManager-Foreground { position: fixed; }
+div.DialogManager-Frame { position: relative; overflow: hidden; text-align: left; }
+.Page-Metro div.DialogManager-Frame { border-left: 10px solid rgb(112, 121, 127); }
+div.DialogManager-TopRegion { width: 100%; }
+.Page-Metro div.DialogManager-TopRegion { background-color: White; }
+div.DialogManager-BottomRegion { width: 100%; }
+div.DialogManager-BottomPaddingArea { height: 12px; border-left: 1px solid; border-right: 1px solid; background-color: White; }
+.Page-Metro div.DialogManager-BottomPaddingArea { border-left: 0px none; border-right: 0px none; height: 15px; }
+div.DialogManager-MiddleRegion { border-left: 1px solid; border-right: 1px solid; background-color: White; margin: 0px; text-align: left; vertical-align: middle; }
+.Page-Metro div.DialogManager-MiddleRegion { border-left: 0px none; border-right: 0px none; }
+div.DialogManager-Header { padding: 0px 20px 15px; }
+.Page-Metro div.DialogManager-Header { padding-left: 30px; padding-bottom: 12px; }
+div.DialogManager-Icon { display: block; width: 32px; height: 32px; vertical-align: middle; margin-right: 0px; }
+.Page-Metro div.DialogManager-Icon { width: 48px; height: 40px; vertical-align: top; }
+div.DialogManager-Title { display: block; font-size: 16pt; font-family: Arial,sans-serif; color: rgb(249, 124, 0); letter-spacing: -0.03em; line-height: normal; padding: 0px; word-wrap: break-word; }
+.Page-Metro div.DialogManager-Title { font-family: "Segoe WPC Light","Segoe UI Light","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 24px; color: rgb(102, 102, 102); letter-spacing: normal; line-height: normal; padding-top: 12px; }
+div.DialogManager-SubTitle { vertical-align: middle; font-family: Arial,sans-serif; letter-spacing: -0.03em; padding-top: 5px; }
+.Page-Metro div.DialogManager-SubTitle { font-family: "Segoe WPC Light","Segoe UI Light","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 18px; letter-spacing: normal; color: rgb(112, 121, 127); }
+.DialogManager-HeaderLeftTD {  }
+.DialogManager-HeaderRightTD { width: 960px; }
+div.DialogManager-ContentArea { padding: 0px 20px; }
+.Page-Metro div.DialogManager-ContentArea { padding-left: 30px; }
+div.DialogManager-BodyArea { color: rgb(67, 81, 91); letter-spacing: 1px; padding: 0px 52px; overflow: hidden; width: 100%; background-color: rgb(255, 255, 255); }
+.Page-Metro div.DialogManager-BodyArea { padding: 0px; color: rgb(102, 102, 102); letter-spacing: normal; line-height: normal; }
+div.DialogManager-Footer { padding-top: 25px; text-align: right; margin-right: -5px; }
+.Page-Metro div.DialogManager-Footer { padding-top: 45px; }
+.Page-Metro div.DialogManager-LearnMoreArea { padding-top: 12px; }
+.ProgressBarContainer { border: 1px solid rgb(198, 223, 243); padding: 0px; background-color: rgb(255, 255, 255); height: 16px; }
+.ProgressBarFill { padding: 0px; margin: 0px; height: 100%; color: rgb(255, 255, 255); font-size: 9pt; line-height: normal; letter-spacing: 0.025em; white-space: nowrap; }
+.ProgressBar-Urgent { background-color: rgb(231, 0, 0); }
+.Shell-Metro { width: 960px; height: 100%; text-align: left; }
+.Shell-Body { position: relative; }
+.Shell-Metro .Shell-Body { overflow: visible; }
+.Shell-Footer { height: 30px; font-family: Tahoma,Verdana,Arial,sans-serif; font-weight: normal; font-size: 11px; line-height: normal; letter-spacing: 0.05em; }
+/* ::::: https://account.activedirectory.windowsazure.com/1.0.0.874/Firefox/en-US/css/O365NavbarStyleOverrides.css ::::: */
+
+html, body { margin: 0px auto; padding: 0px; height: 100%; }
+form { width: 100%; min-height: 100%; position: relative; background-color: rgb(255, 255, 255); }
+.Shell-Metro { width: 100%; }
+.Shell-Body { height: auto; }
+.Shell-Footer { position: fixed; bottom: 0px; height: 30px; width: 100%; }
+.PageLayout { width: 960px; }
+.ChangePasswordControls { width: 960px; margin-left: auto; margin-right: auto; }
+/* ::::: https://account.activedirectory.windowsazure.com/1.0.0.874/Firefox/en-US/css/ChangePassword.css ::::: */
+
+a.Button[id="ChangePasswordControl_OkButton"] span, a.Button-focus[id="ChangePasswordControl_OkButton"] span, a.Button-hover[id="ChangePasswordControl_OkButton"] span, a.Button-active[id="ChangePasswordControl_OkButton"] span, span.Button-disabled[id="ChangePasswordControl_OkButton_disabled"] span { font-size: 13px; padding: 10px 20px; background-color: rgb(127, 186, 0); color: white; border-width: 0px; }
+.Page-Metro tr.PropertySheetItem .Title { font-weight: bold; }
+#ChangePasswordControl_PasswordRequirementText { padding-top: 25px; padding-bottom: 25px; }
+a.Button, a.Button:link, a.Button:visited, a.Button-focus, a.Button-focus:link, a.Button-focus:visited, a.Button-hover, a.Button-hover:link, a.Button-hover:visited, a.Button-active, a.Button-active:link, a.Button-active:visited, span.Button-disabled { margin-left: 0px; }
+tr.PropertySheetItem .Title { text-transform: none; }
+@media only screen and (max-width: 1000px) {
+	.Shell-Metro { width: 100%; }
+	form { width: 100%; }
+	div.PageLayout { width: 100%; }
+	div.PageLayout td.Content { width: 90%; }
+	div.PageLayout table.Content { width: 100%; }
+	.Page-Metro .PageLayout-Padding { width: 60%; }
+	div.PageLayout-Panels { width: 100%; }
+	td.PageLayout-ContentPanelNoNav { width: 100%; }
+	body { width: 100%; }
+	html.PageWithNavBar-Metro { width: 100%; height: 100%; }
+	html, body { margin: 0px; }
+	.Page-Metro div.PageLayout td.Content { padding-left: 5px; padding-right: 5px; }
+	.shell-page-title { padding-left: 5px; padding-right: 5px; }
+}
+.ValidationMessageNewPassword, .ValidationMessagePasswordNewConfirm, .ValidationMessageOldPassword { border: 1px solid red; position: relative; width: 240px; padding: 5px; margin-top: 5px; display: none; }
+.ValidationMessageOldPassword_Server, .ValidationMessageNewPassword_Server { border: 1px solid red; position: relative; width: 240px; padding: 5px; margin-top: 5px; display: none; }
+#mainDivChangePassword { width: 35%; }
+body { display: none; }
+/* ::::: https://account.activedirectory.windowsazure.com/WebResource.axd?d=QXHKtUDhYDLozZ6uAb3kQLY5fRFAo3nhWszVsxmCSrjAYlk88UyyTG7mwl1M2CDdSkl0-8_GkRdFrELa8ZknYU-XfITZWOnvQHkzYinQIda7XMZiXJljLfWRtLxLAUXGy1Lk2EfOKKQiNpws5oVPtk1lgozsfoLYu68IYNCr1VfXvp6eVbKhdngecXt9mb_LNAoaNtHaPIGTnXubzx2TuQ2&t=635691456640094719 ::::: */
+
+/* ::::: https://shellprod.msocdn.com/16.00.1136.008/en-US/css/shellg2coremincss_223e9e7e.css ::::: */
+
+.o365button { background-color: transparent; }
+@font-face {
+	font-family: "o365Icons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('shelleoticons_dfdb386c.eot') format("embedded-opentype"), url('shellwofficons_f563aa35.woff') format("woff"), url('shellttficons_cda71c3e.ttf') format("truetype"), url('shellsvgicons_c0f7c1a0.svg') format("svg");
+}
+.o365cs-base [class^="ms-Icon--"]::before, .o365cs-base [class*=" ms-Icon--"]::before { font-family: "Office365Icons","o365Icons"; font-style: normal; font-weight: normal; display: inline-block; text-decoration: inherit; text-align: center; font-variant: normal; text-transform: none; line-height: 1; width: auto; margin-left: 0px; margin-right: 0px; }
+.o365cs-base [class^="ms-Icon--"], .o365cs-base [class*=" ms-Icon--"] { display: inline-block; line-height: 1; }
+.ms-icon-font-circle::before { border-style: solid; border-radius: 1em; line-height: 1.15; box-sizing: border-box; padding: 0.1em; }
+@media not all {
+	.ms-icon-font-circle::before { line-height: 1; }
+}
+.ms-icon-font-size-20 { font-size: 20px ! important; }
+.ms-icon-font-size-22 { font-size: 22px ! important; }
+[data-icon]::before { content: attr(data-icon); }
+.ms-Icon--circleFill::before { content: ""; }
+.ms-Icon--plus::before { content: ""; }
+.ms-Icon--question::before { content: ""; }
+.ms-Icon--person::before { content: ""; }
+.ms-Icon--personAdd::before { content: ""; }
+.ms-Icon--mail::before { content: ""; }
+.ms-Icon--infoCircle::before { content: ""; }
+.ms-Icon--alert::before { content: ""; }
+.ms-Icon--xCircle::before { content: ""; }
+.ms-Icon--bell::before { content: ""; }
+.ms-Icon--calendar::before { content: ""; }
+.ms-Icon--scheduling::before { content: ""; }
+.ms-Icon--event::before { content: ""; }
+.ms-Icon--onedrive::before { content: ""; }
+.ms-Icon--chat::before { content: ""; }
+.ms-Icon--menu::before { content: ""; }
+.ms-Icon--favorites::before { content: ""; }
+.ms-Icon--phone::before { content: ""; }
+.ms-Icon--clock::before { content: ""; }
+.ms-Icon--miniatures::before { content: ""; }
+.ms-Icon--gear::before { content: ""; }
+.ms-Icon--smiley::before { content: ""; }
+.ms-Icon--search::before { content: ""; }
+.ms-Icon--questionReverse::before { content: ""; }
+.ms-Icon--tasks::before { content: ""; }
+.ms-Icon--check::before { content: ""; }
+.ms-Icon--x::before { content: ""; }
+.ms-Icon--ellipsis::before { content: ""; }
+.ms-Icon--refresh::before { content: ""; }
+.ms-Icon--arrowLeft::before { content: ""; }
+.ms-Icon--arrowRight::before { content: ""; }
+.ms-Icon--download::before { content: ""; }
+.ms-Icon--save::before { content: ""; }
+.ms-Icon--pencil::before { content: ""; }
+.ms-Icon--caretUp::before { content: ""; }
+.ms-Icon--caretDown::before { content: ""; }
+.ms-Icon--officeThreshold::before { content: ""; }
+.ms-Icon--office365::before { content: ""; }
+.ms-Icon--office365Preview::before { content: ""; }
+.ms-Icon--apps::before { content: ""; }
+.ms-Icon--officeStore::before { content: ""; }
+.ms-Icon--outlook::before { content: ""; }
+.ms-Icon--project::before { content: ""; }
+.ms-Icon--yammer::before { content: ""; }
+.ms-Icon--dynamicsCrm::before { content: ""; }
+.ms-Icon--adminP::before { content: ""; }
+.ms-Icon--admin::before { content: ""; }
+.ms-Icon--microsoft::before { content: ""; }
+.ms-Icon--powerBi::before { content: ""; }
+.ms-Icon--newsfeed::before { content: ""; }
+.ms-Icon--gallatin::before { content: ""; }
+.ms-Icon--chevronUp::before { content: ""; }
+.ms-Icon--chevronDown::before { content: ""; }
+.ms-Icon--chevronLeft::before { content: ""; }
+.ms-Icon--chevronRight::before { content: ""; }
+.ms-Icon--waffle2::before { content: ""; }
+.ms-Icon--tile::before { content: ""; }
+.ms-Icon--delve::before { content: ""; }
+.ms-Icon--people::before { content: ""; }
+.ms-Icon--lync::before { content: ""; }
+.ms-Icon--sharepoint::before { content: ""; }
+.ms-Icon--word::before { content: ""; }
+.ms-Icon--excel::before { content: ""; }
+.ms-Icon--powerpoint::before { content: ""; }
+.ms-Icon--onenote::before { content: ""; }
+.ms-Icon--socialListening::before { content: ""; }
+.ms-Icon--adminA::before { content: ""; }
+.ms-Icon--group::before { content: ""; }
+.ms-Icon--video::before { content: ""; }
+.ms-Icon--skype::before { content: ""; }
+.ms-Icon--officeVideo::before { content: ""; }
+.ms-Icon--parature::before { content: ""; }
+.ms-Icon--thumbUp::before { content: ""; }
+.ms-Icon--bing::before { content: ""; }
+.ms-Icon--docs::before { content: ""; }
+.ms-Icon--msn::before { content: ""; }
+.ms-Icon--sway::before { content: ""; }
+.ms-Icon--skypeForBusiness::before { content: ""; }
+.ms-Icon--checkPeople::before { content: ""; }
+.ms-Icon--classroom::before { content: ""; }
+.ms-Icon--globe::before { content: ""; }
+.ms-Icon--mobile::before { content: ""; }
+.ms-Icon--classNotebook::before { content: ""; }
+.ms-Icon--protectionCenter::before { content: ""; }
+.ms-Icon--oneNoteEdu::before { content: ""; }
+.ms-Icon--powerBi2::before { content: ""; }
+.ms-Icon--chevronThinLeft::before { content: ""; }
+.ms-Icon--chevronThinRight::before { content: ""; }
+.ms-Icon--chevronThickLeft::before { content: ""; }
+.ms-Icon--chevronThickRight::before { content: ""; }
+.ms-Icon--starburst::before { content: ""; }
+.ms-Icon--lightBulb2::before { content: ""; }
+.ms-Icon--powerapps::before { content: ""; }
+.ms-Icon--skypeCheck::before { content: ""; }
+.ms-Icon--skypeClock::before { content: ""; }
+.ms-Icon--skypeMinus::before { content: ""; }
+.ms-Icon--collabDB::before { content: ""; }
+.ms-Icon--skypeMeetings::before { content: ""; }
+.ms-Icon--bookings::before { content: ""; }
+.ms-Icon--dynamicsnav::before { content: ""; }
+.o365cs-base * { box-sizing: content-box; }
+.o365cs-nav-header16 { width: 100%; height: 50px; display: table; border-spacing: 0px; font-size: 0px; white-space: nowrap; line-height: normal; }
+.o365cs-nav-header16 .o365cs-nav-leftAlign { display: table-cell; vertical-align: middle; }
+.o365cs-navMenuButton { transition-duration: 0.65s; transition-property: background-color; transition-timing-function: ease; }
+.o365cs-newAL-on.o365cs-nav-navMenu { background-color: rgba(255, 255, 255, 0.97); border: 0px none; box-shadow: none; top: 50px ! important; left: auto ! important; overflow-y: auto; outline: 0px none; }
+.o365cs-nav-navMenuBeak { position: absolute; bottom: -8px; left: 14px; z-index: 2100; }
+.o365cs-nav-navMenuBeak::before, .o365cs-nav-navMenuBeak::after { border: medium solid transparent; content: " "; height: 0px; position: absolute; width: 0px; }
+.o365cs-nav-navMenuBeak::before { border-width: 11px 12.5px; border-bottom-color: rgb(214, 214, 214); top: -18px; left: 5px; }
+.o365cs-nav-navMenuBeak::after { border-width: 10px 11.5px; border-bottom-color: rgb(255, 255, 255); top: -16px; left: 6px; }
+.o365cs-nav-appItem { float: left; }
+.o365cs-nav-appTile { display: block; text-align: center; line-height: normal; position: relative; text-decoration: none ! important; -moz-user-select: none; transition: outline 0.125s ease-in-out 0s, -webkit-transform 0.125s ease-in-out 0s; }
+.o365cs-newAL-on .o365cs-nav-appTile { margin: 0px 2px 2px 0px; padding: 2px; box-sizing: border-box; }
+.o365cs-nav-appTileBackground { width: 100%; height: 100%; }
+.o365cs-newAL-on .o365cs-nav-appTileBackground { margin: 0px 2px 2px 0px; padding: 2px; }
+.o365cs-newALV2-on .o365cs-nav-appTile:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground { background-color: rgba(255, 255, 255, 0.09) ! important; }
+.o365cs-newAL-on .o365cs-nav-appTileHovered .o365cs-nav-appTileBackground, .o365cs-newAL-on .o365cs-nav-appTile:focus .o365cs-nav-appTileBackground, .o365cs-newAL-on .o365cs-nav-appTileMenuShown .o365cs-nav-appTileBackground { border: 2px solid rgba(255, 255, 255, 0.45); padding: 0px; }
+.o365cs-newALV2-on .o365cs-nav-appTileHovered:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground, .o365cs-newALV2-on .o365cs-nav-appTile:focus:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground, .o365cs-newALV2-on .o365cs-nav-appTileMenuShown:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground { background-color: currentcolor ! important; }
+.o365cs-nav-appTileMedium { width: 100px; height: 100px; }
+.o365cs-nav-appTileIcon { display: inline-block; }
+.o365cs-nav-appTileMedium .o365cs-nav-appTileIcon, .o365cs-nav-appTileWide .o365cs-nav-appTileIcon { font-size: 36px ! important; margin-top: 22px; }
+.o365cs-nav-appTileTitle { display: table-cell; position: static; left: 10px; bottom: 4px; padding: 1px 5px 0px; height: 30px; vertical-align: middle; }
+.o365cs-newALV2-on .o365cs-nav-appTile:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileIcon, .o365cs-newALV2-on .o365cs-nav-appTile:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileTitle { color: rgb(234, 234, 234) ! important; }
+.o365cs-nav-appTileTitle > span { font-family: "SegoeUI-Regular-final","Segoe UI","Segoe UI WPC",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 12px; display: block; overflow: hidden; text-overflow: ellipsis; text-align: center; white-space: normal; line-height: 16px; max-height: 32px; }
+.o365cs-newAL-on .o365cs-nav-appTileTitle > span { font-family: "SegoeUI-SemiLight-final","Segoe UI SemiLight","Segoe UI WPC Semilight","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; }
+.o365cs-nav-appTileMedium .o365cs-nav-appTileTitle { width: 85px; }
+.o365cs-nav-navMenuMyApps { clear: both; }
+.o365cs-nav-navMenuMyApps .o365cs-nav-navMenuMyAppsLink, .o365cs-nav-navMenuMyApps .o365cs-nav-navMenuMyAppsLink:hover { display: inline-block; font-family: "SegoeUI-Regular-final","Segoe UI","Segoe UI WPC",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 14px; margin-top: 7px; margin-bottom: 0px; margin-left: 2px; vertical-align: middle; text-decoration: none; }
+.o365cs-nav-navMenuMyApps .o365cs-nav-navMenuMyAppsLinkText { vertical-align: middle; }
+.o365cs-nav-header16 .o365cs-nav-topItem { display: inline-block; vertical-align: top; }
+.o365cs-nav-header16 .o365cs-nav-o365Branding { padding-left: 20px; padding-right: 20px; border-left: 1px solid rgba(255, 255, 255, 0.3); height: 50px; }
+.o365cs-nav-header16 .o365cs-nav-bposLogo { display: inline-block; white-space: nowrap; vertical-align: middle; margin-top: 1px; padding-bottom: 1px; }
+.o365cs-nav-header16 .o365cs-nav-brandingText { line-height: 46px; display: inline-block; font-family: "SegoeUI-SemiLight-final","Segoe UI SemiLight","Segoe UI WPC Semilight","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 22px; }
+.o365cs-nav-docTitleText { line-height: normal; display: inline-block; font-size: 18px; }
+.o365cs-nav-header16 .o365cs-nav-centerAlign { display: table-cell; width: 100%; text-align: center; vertical-align: middle; }
+.o365cs-nav-header16 .o365cs-nav-rightAlign { display: table-cell; vertical-align: top; text-align: right; }
+.o365cs-nav-header16 .o365cs-nav-rightMenus { display: table-cell; vertical-align: top; }
+.o365cs-nav-header16 .o365cs-nav-button { display: block; vertical-align: middle; border-width: 0px; margin: 0px; padding: 0px; min-width: 50px; height: 50px; box-sizing: border-box; text-align: center; line-height: normal; overflow: visible; cursor: pointer; outline-offset: -1px; }
+.o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button { border-left: 1px solid rgba(255, 255, 255, 0.3); }
+.o365cs-nav-header16 .o365cs-nav-item { position: relative; transition: background-color 0.467s cubic-bezier(0.1, 0.9, 0.2, 1) 34ms; }
+.o365cs-nav-contextMenu { background-color: rgb(255, 255, 255); border-left: 1px solid rgb(222, 222, 222); border-right: 1px solid rgb(222, 222, 222); border-bottom: 1px solid rgb(222, 222, 222); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); min-width: 180px; max-width: 375px; clip: rect(0px, 10000px, 10000px, -10px); outline: 0px none; }
+.o365cs-nav-contextMenu .o365cs-contextMenuItem, .o365cs-nav-contextMenu .o365cs-contextMenuInactiveItem { display: block; box-sizing: border-box; padding: 10px 30px; font: 15px "SegoeUI-Regular-final","Segoe UI","Segoe UI WPC",Segoe,Tahoma,Helvetica,Arial,sans-serif; text-align: left; outline-offset: -1px; }
+.o365cs-nav-contextMenu .o365cs-contextMenuSeparator { border-top-style: solid; border-top-width: 1px; }
+.o365cs-me-presence5x50 { width: 5px; height: 50px; position: absolute; top: 0px; left: 0px; }
+.o365cs-nav-header16 .o365cs-me-nav-item { border-left: medium none ! important; z-index: 1; min-width: 55px; }
+.o365cs-me-tileview-container { position: absolute; top: 0px; left: 0px; z-index: -1; }
+.o365cs-me-tileview { width: 55px; height: 50px; overflow: hidden; }
+.o365cs-me-presenceColor-Offline { background-color: rgb(182, 207, 216); }
+.o365cs-me-tileimg { width: 50px; height: 50px; overflow: hidden; position: absolute; line-height: normal; top: 0px; left: 5px; }
+.o365cs-me-tileimg-doughboy { width: 52px; height: 49px; font-size: 52px; padding: 3px 0px 0px 2px; left: 0px; position: static; }
+.o365cs-breadCrumb { line-height: 50px; display: inline; }
+.o365cs-breadCrumbTemplate { display: none; }
+.o365cs-breadCrumbContainer { display: inline; padding-left: 10px; }
+.o365cs-breadCrumb:hover { text-decoration: underline; }
+.o365cs-folderSeparator { font-size: 14px; padding-left: 6px; padding-right: 6px; }
+.o365cs-semiLightFont { font-family: "SegoeUI-SemiLight-final","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-weight: lighter; }
+.wf-o365-placeholder::before { content: ""; }
+.wf-o365-outlooklogo::before { content: ""; }
+.wf-o365-calendar::before { content: ""; }
+.wf-o365-peoplelogo::before { content: ""; }
+.wf-o365-yammerlogo::before { content: ""; }
+.wf-o365-newsfeed::before { content: ""; }
+.wf-o365-cloud::before { content: ""; }
+.wf-o365-tasks::before { content: ""; }
+.wf-o365-projectlogo::before { content: ""; }
+.wf-o365-pulselogo::before { content: ""; }
+.wf-o365-powerbilogo::before { content: ""; }
+.wf-o365-powerbiv2logo::before { content: ""; }
+.wf-o365-crmlogo::before { content: ""; }
+.wf-o365-sociallisteninglogo::before { content: ""; }
+.wf-o365-videologo::before { content: ""; }
+.wf-o365-paraturelogo::before { content: ""; }
+.wf-o365-swaylogo::before { content: ""; }
+.wf-o365-highlanderlogo::before { content: ""; }
+.wf-o365-wordlogo::before { content: ""; }
+.wf-o365-excellogo::before { content: ""; }
+.wf-o365-powerpointlogo::before { content: ""; }
+.wf-o365-onenotelogo::before { content: ""; }
+.wf-o365-sharepointlogo::before { content: ""; }
+.wf-o365-office365adminlogo::before { content: ""; }
+.wf-o365-partner::before { content: ""; }
+.wf-o365-smiley::before { content: ""; }
+.wf-o365-officestorelogo::before { content: ""; }
+.wf-o365-pawlogo::before { content: ""; }
+.wf-o365-homeroomlogo::before { content: ""; }
+.wf-o365-classnotebooklogo::before { content: ""; }
+.wf-o365-compliancecenterlogo::before { content: ""; }
+.wf-o365-staffnotebooklogo::before { content: ""; }
+.wf-o365-powerappslogo::before { content: ""; }
+.wf-o365-collabdblogo::before { content: ""; }
+.wf-o365-skypemeetingslogo::before { content: ""; }
+.wf-o365-bookingslogo::before { content: ""; }
+.wf-o365-dynamicsnavlogo::before { content: ""; }
+/* ::::: https://shellprod.msocdn.com/16.00.1136.008/en-US/css/shellg2corecss_3850a0df.css ::::: */
+
+button::-moz-focus-inner { border-width: 0px; padding: 0px; }
+.textbox::-moz-placeholder { color: rgb(166, 166, 166); }
+.o365button { background: transparent none repeat scroll 0% 0%; border-width: 0px; padding: 0px; cursor: pointer ! important; font-size: 14px; }
+.o365button:disabled, label.o365button[disabled="true"] { cursor: default ! important; }
+.contextMenuPopup { background-color: rgb(255, 255, 255); }
+._fce_o1::before { padding: 0px ! important; font-size: 15px ! important; width: 16px; height: 16px; text-indent: -1px; border-width: 1px ! important; }
+.tnarrow .ms-icon-size-appBar::before { font-size: 18px ! important; padding: 5px ! important; border-width: 2px ! important; width: 32px ! important; height: 32px ! important; }
+.tnarrow .ms-icon-size-appBar.ms-icon-wide-glyph::before { padding-left: 2px ! important; padding-right: 8px ! important; }
+.twide .ms-icon-size-appBar::before, .mouse .ms-icon-size-appBar::before { font-size: 21px ! important; padding: 5px ! important; border-width: 2px ! important; width: 35px ! important; height: 35px ! important; }
+.twide .ms-icon-size-appBar.ms-icon-wide-glyph::before, .mouse .ms-icon-size-appBar.ms-icon-wide-glyph::before { padding-left: 2px ! important; padding-right: 8px ! important; }
+.twide .ms-icon-size-appBar.ms-icon-wide-glyph::before, .mouse .ms-icon-size-appBar.ms-icon-wide-glyph::before { padding-left: 1px ! important; padding-right: 7px ! important; }
+.twide .ms-icon-size-appBar.ms-icon-tall-glyph::before, .mouse .ms-icon-size-appBar.ms-icon-tall-glyph::before { padding-top: 6px ! important; }
+.wf-size-swipe::before { font-size: 30px ! important; padding: 3px ! important; border-width: 2px ! important; width: 40px ! important; height: 40px ! important; }
+.ms-border-transparent::before { border-color: transparent; }
+.ms-icon-modifier-doughboy, .ms-icon-modifier-doughboy::before { overflow: hidden; box-sizing: border-box; display: block; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-16, .ms-icon-modifier-doughboy.ms-icon-font-size-16::before { height: 16px; width: 16px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-20, .ms-icon-modifier-doughboy.ms-icon-font-size-20::before { height: 20px; width: 20px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-24, .ms-icon-modifier-doughboy.ms-icon-font-size-24::before { height: 24px; width: 24px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-25, .ms-icon-modifier-doughboy.ms-icon-font-size-25::before { height: 25px; width: 25px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-30, .ms-icon-modifier-doughboy.ms-icon-font-size-30::before { height: 30px; width: 30px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-32, .ms-icon-modifier-doughboy.ms-icon-font-size-32::before { height: 32px; width: 32px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-35, .ms-icon-modifier-doughboy.ms-icon-font-size-35::before { height: 35px; width: 35px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-40, .ms-icon-modifier-doughboy.ms-icon-font-size-40::before { height: 40px; width: 40px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-48, .ms-icon-modifier-doughboy.ms-icon-font-size-48::before { height: 48px; width: 48px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-50, .ms-icon-modifier-doughboy.ms-icon-font-size-50::before { height: 50px; width: 50px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-64, .ms-icon-modifier-doughboy.ms-icon-font-size-64::before { height: 64px; width: 64px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-70, .ms-icon-modifier-doughboy.ms-icon-font-size-70::before { height: 70px; width: 70px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-80, .ms-icon-modifier-doughboy.ms-icon-font-size-80::before { height: 80px; width: 80px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-96, .ms-icon-modifier-doughboy.ms-icon-font-size-96::before { height: 96px; width: 96px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-100, .ms-icon-modifier-doughboy.ms-icon-font-size-100::before { height: 100px; width: 100px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-160, .ms-icon-modifier-doughboy.ms-icon-font-size-160::before { height: 160px; width: 160px; }
+.ms-icon-modifier-doughboy.ms-icon-font-size-240, .ms-icon-modifier-doughboy.ms-icon-font-size-240::before { height: 240px; width: 240px; }
+.ms-icon-modifier-personDoughboy::before { padding-top: 0.09em; text-indent: -0.05em; }
+.ie.ms-icon-modifier-personDoughboy::before { padding-top: 0.14em; }
+.ms-icon-modifier-placeDoughboy::before { padding-top: 0.2em; }
+.ie.ms-icon-modifier-groupDoughboy::before { padding-top: 0.28em; }
+.ms-icon-modifier-groupDoughboy::before { padding-top: 0.25em; text-indent: -0.25em; }
+.ms-icon-modifier-bookingDoughboy::before { padding-top: 0.13em; font-size: 0.8em; }
+.ie.ms-icon-modifier-bookingDoughboy::before { padding-top: 0.16em ! important; }
+.ms-icon-modifier-broadcastDoughboy::before {  }
+.ie.ms-icon-modifier-broadcastDoughboy::before {  }
+.o365button { background-color: transparent; }
+@font-face {
+	font-family: "o365Icons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('shelleoticons_dfdb386c.eot') format("embedded-opentype"), url('shellwofficons_f563aa35.woff') format("woff"), url('shellttficons_cda71c3e.ttf') format("truetype"), url('shellsvgicons_c0f7c1a0.svg') format("svg");
+}
+.o365cs-base [class^="ms-Icon--"]::before, .o365cs-base [class*=" ms-Icon--"]::before { font-family: "Office365Icons","o365Icons"; font-style: normal; font-weight: normal; display: inline-block; text-decoration: inherit; text-align: center; font-variant: normal; text-transform: none; line-height: 1; width: auto; margin-left: 0px; margin-right: 0px; }
+.o365cs-base [class^="ms-Icon--"], .o365cs-base [class*=" ms-Icon--"] { display: inline-block; line-height: 1; }
+.ms-icon-font-circle::before { border-style: solid; border-radius: 1em; line-height: 1.15; box-sizing: border-box; padding: 0.1em; }
+@media not all {
+	.ms-icon-font-circle::before { line-height: 1; }
+}
+.ms-icon-font-size-20 { font-size: 20px ! important; }
+.ms-icon-font-size-22 { font-size: 22px ! important; }
+[data-icon]::before { content: attr(data-icon); }
+.ms-Icon--circleFill::before { content: ""; }
+.ms-Icon--plus::before { content: ""; }
+.ms-Icon--question::before { content: ""; }
+.ms-Icon--person::before { content: ""; }
+.ms-Icon--personAdd::before { content: ""; }
+.ms-Icon--mail::before { content: ""; }
+.ms-Icon--infoCircle::before { content: ""; }
+.ms-Icon--alert::before { content: ""; }
+.ms-Icon--xCircle::before { content: ""; }
+.ms-Icon--bell::before { content: ""; }
+.ms-Icon--calendar::before { content: ""; }
+.ms-Icon--scheduling::before { content: ""; }
+.ms-Icon--event::before { content: ""; }
+.ms-Icon--onedrive::before { content: ""; }
+.ms-Icon--chat::before { content: ""; }
+.ms-Icon--menu::before { content: ""; }
+.ms-Icon--favorites::before { content: ""; }
+.ms-Icon--phone::before { content: ""; }
+.ms-Icon--clock::before { content: ""; }
+.ms-Icon--miniatures::before { content: ""; }
+.ms-Icon--gear::before { content: ""; }
+.ms-Icon--smiley::before { content: ""; }
+.ms-Icon--search::before { content: ""; }
+.ms-Icon--questionReverse::before { content: ""; }
+.ms-Icon--tasks::before { content: ""; }
+.ms-Icon--check::before { content: ""; }
+.ms-Icon--x::before { content: ""; }
+.ms-Icon--ellipsis::before { content: ""; }
+.ms-Icon--refresh::before { content: ""; }
+.ms-Icon--arrowLeft::before { content: ""; }
+.ms-Icon--arrowRight::before { content: ""; }
+.ms-Icon--download::before { content: ""; }
+.ms-Icon--save::before { content: ""; }
+.ms-Icon--pencil::before { content: ""; }
+.ms-Icon--caretUp::before { content: ""; }
+.ms-Icon--caretDown::before { content: ""; }
+.ms-Icon--officeThreshold::before { content: ""; }
+.ms-Icon--office365::before { content: ""; }
+.ms-Icon--office365Preview::before { content: ""; }
+.ms-Icon--apps::before { content: ""; }
+.ms-Icon--officeStore::before { content: ""; }
+.ms-Icon--outlook::before { content: ""; }
+.ms-Icon--project::before { content: ""; }
+.ms-Icon--yammer::before { content: ""; }
+.ms-Icon--dynamicsCrm::before { content: ""; }
+.ms-Icon--adminP::before { content: ""; }
+.ms-Icon--admin::before { content: ""; }
+.ms-Icon--microsoft::before { content: ""; }
+.ms-Icon--powerBi::before { content: ""; }
+.ms-Icon--newsfeed::before { content: ""; }
+.ms-Icon--gallatin::before { content: ""; }
+.ms-Icon--chevronUp::before { content: ""; }
+.ms-Icon--chevronDown::before { content: ""; }
+.ms-Icon--chevronLeft::before { content: ""; }
+.ms-Icon--chevronRight::before { content: ""; }
+.ms-Icon--waffle2::before { content: ""; }
+.ms-Icon--tile::before { content: ""; }
+.ms-Icon--delve::before { content: ""; }
+.ms-Icon--people::before { content: ""; }
+.ms-Icon--lync::before { content: ""; }
+.ms-Icon--sharepoint::before { content: ""; }
+.ms-Icon--word::before { content: ""; }
+.ms-Icon--excel::before { content: ""; }
+.ms-Icon--powerpoint::before { content: ""; }
+.ms-Icon--onenote::before { content: ""; }
+.ms-Icon--socialListening::before { content: ""; }
+.ms-Icon--adminA::before { content: ""; }
+.ms-Icon--group::before { content: ""; }
+.ms-Icon--video::before { content: ""; }
+.ms-Icon--skype::before { content: ""; }
+.ms-Icon--officeVideo::before { content: ""; }
+.ms-Icon--parature::before { content: ""; }
+.ms-Icon--thumbUp::before { content: ""; }
+.ms-Icon--bing::before { content: ""; }
+.ms-Icon--docs::before { content: ""; }
+.ms-Icon--msn::before { content: ""; }
+.ms-Icon--sway::before { content: ""; }
+.ms-Icon--skypeForBusiness::before { content: ""; }
+.ms-Icon--checkPeople::before { content: ""; }
+.ms-Icon--classroom::before { content: ""; }
+.ms-Icon--globe::before { content: ""; }
+.ms-Icon--mobile::before { content: ""; }
+.ms-Icon--classNotebook::before { content: ""; }
+.ms-Icon--protectionCenter::before { content: ""; }
+.ms-Icon--oneNoteEdu::before { content: ""; }
+.ms-Icon--powerBi2::before { content: ""; }
+.ms-Icon--chevronThinLeft::before { content: ""; }
+.ms-Icon--chevronThinRight::before { content: ""; }
+.ms-Icon--chevronThickLeft::before { content: ""; }
+.ms-Icon--chevronThickRight::before { content: ""; }
+.ms-Icon--starburst::before { content: ""; }
+.ms-Icon--lightBulb2::before { content: ""; }
+.ms-Icon--powerapps::before { content: ""; }
+.ms-Icon--skypeCheck::before { content: ""; }
+.ms-Icon--skypeClock::before { content: ""; }
+.ms-Icon--skypeMinus::before { content: ""; }
+.ms-Icon--collabDB::before { content: ""; }
+.ms-Icon--skypeMeetings::before { content: ""; }
+.ms-Icon--bookings::before { content: ""; }
+.ms-Icon--dynamicsnav::before { content: ""; }
+.o365cs-base * { box-sizing: content-box; }
+.o365cs-nav-spinnerBall:nth-child(1) { transform: rotate(45deg); }
+.o365cs-nav-spinnerBall:nth-child(2) { opacity: 0.8; transform: rotate(0deg); }
+.o365cs-nav-spinnerBall:nth-child(3) { opacity: 0.6; transform: rotate(-45deg); }
+.o365cs-nav-spinnerBall:nth-child(4) { opacity: 0.4; transform: rotate(-90deg); }
+.o365cs-nav-spinnerBall:nth-child(5) { opacity: 0.25; transform: rotate(-135deg); }
+.o365cs-nav-spinnerBall:nth-child(6) { opacity: 0.15; transform: rotate(-180deg); }
+.o365cs-nav-spinnerBall:nth-child(7) { opacity: 0.075; transform: rotate(-225deg); }
+.o365cs-nav-spinnerBall:nth-child(8) { opacity: 0.05; transform: rotate(-270deg); }
+.o365cs-shareButton { margin: 4px; height: 42px; padding: 10px 32px; border: 1px solid transparent; }
+.o365cs-shareButton-Label { margin: 2px; }
+.o365cs-nav-header16 { width: 100%; height: 50px; display: table; border-spacing: 0px; font-size: 0px; white-space: nowrap; line-height: normal; }
+.o365cs-nav-header16 .o365cs-nav-leftAlign { display: table-cell; vertical-align: middle; }
+.o365cs-navMenuButton { transition-duration: 0.65s; transition-property: background-color; transition-timing-function: ease; }
+.o365cs-newAL-on.o365cs-nav-navMenu { background-color: rgba(255, 255, 255, 0.97); border: 0px none; box-shadow: none; top: 50px ! important; left: auto ! important; overflow-y: auto; outline: 0px none; }
+.o365cs-nav-navMenuBeak { position: absolute; bottom: -8px; left: 14px; z-index: 2100; }
+.o365cs-nav-navMenuBeak::before, .o365cs-nav-navMenuBeak::after { border: medium solid transparent; content: " "; height: 0px; position: absolute; width: 0px; }
+.o365cs-nav-navMenuBeak::before { border-width: 11px 12.5px; border-bottom-color: rgb(214, 214, 214); top: -18px; left: 5px; }
+.o365cs-nav-navMenuBeak::after { border-width: 10px 11.5px; border-bottom-color: rgb(255, 255, 255); top: -16px; left: 6px; }
+.o365cs-nav-appItem { float: left; }
+.o365cs-nav-appTile { display: block; text-align: center; line-height: normal; position: relative; text-decoration: none ! important; -moz-user-select: none; transition: outline 0.125s ease-in-out 0s, -webkit-transform 0.125s ease-in-out 0s; }
+.o365cs-newAL-on .o365cs-nav-appTile { margin: 0px 2px 2px 0px; padding: 2px; box-sizing: border-box; }
+.o365cs-nav-appTileBackground { width: 100%; height: 100%; }
+.o365cs-newAL-on .o365cs-nav-appTileBackground { margin: 0px 2px 2px 0px; padding: 2px; }
+.o365cs-newALV2-on .o365cs-nav-appTile:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground { background-color: rgba(255, 255, 255, 0.09) ! important; }
+.o365cs-newAL-on .o365cs-nav-appTileHovered .o365cs-nav-appTileBackground, .o365cs-newAL-on .o365cs-nav-appTile:focus .o365cs-nav-appTileBackground, .o365cs-newAL-on .o365cs-nav-appTileMenuShown .o365cs-nav-appTileBackground { border: 2px solid rgba(255, 255, 255, 0.45); padding: 0px; }
+.o365cs-newALV2-on .o365cs-nav-appTileHovered:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground, .o365cs-newALV2-on .o365cs-nav-appTile:focus:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground, .o365cs-newALV2-on .o365cs-nav-appTileMenuShown:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileBackground { background-color: currentcolor ! important; }
+.o365cs-nav-appTileMedium { width: 100px; height: 100px; }
+.o365cs-nav-appTileIcon { display: inline-block; }
+.o365cs-nav-appTileMedium .o365cs-nav-appTileIcon, .o365cs-nav-appTileWide .o365cs-nav-appTileIcon { font-size: 36px ! important; margin-top: 22px; }
+.o365cs-nav-appTileTitle { display: table-cell; position: static; left: 10px; bottom: 4px; padding: 1px 5px 0px; height: 30px; vertical-align: middle; }
+.o365cs-newALV2-on .o365cs-nav-appTile:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileIcon, .o365cs-newALV2-on .o365cs-nav-appTile:not(.o365cs-nav-appTileDisabled) .o365cs-nav-appTileTitle { color: rgb(234, 234, 234) ! important; }
+.o365cs-nav-appTileTitle > span { font-family: "SegoeUI-Regular-final","Segoe UI","Segoe UI WPC",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 12px; display: block; overflow: hidden; text-overflow: ellipsis; text-align: center; white-space: normal; line-height: 16px; max-height: 32px; }
+.o365cs-newAL-on .o365cs-nav-appTileTitle > span { font-family: "SegoeUI-SemiLight-final","Segoe UI SemiLight","Segoe UI WPC Semilight","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; }
+.o365cs-nav-appTileMedium .o365cs-nav-appTileTitle { width: 85px; }
+.o365cs-nav-navMenuMyApps { clear: both; }
+.o365cs-nav-navMenuMyApps .o365cs-nav-navMenuMyAppsLink, .o365cs-nav-navMenuMyApps .o365cs-nav-navMenuMyAppsLink:hover { display: inline-block; font-family: "SegoeUI-Regular-final","Segoe UI","Segoe UI WPC",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 14px; margin-top: 7px; margin-bottom: 0px; margin-left: 2px; vertical-align: middle; text-decoration: none; }
+.o365cs-nav-navMenuMyApps .o365cs-nav-navMenuMyAppsLinkText { vertical-align: middle; }
+.o365cs-nav-header16 .o365cs-nav-topItem { display: inline-block; vertical-align: top; }
+.o365cs-nav-header16 .o365cs-nav-o365Branding { padding-left: 20px; padding-right: 20px; border-left: 1px solid rgba(255, 255, 255, 0.3); height: 50px; }
+.o365cs-nav-header16 .o365cs-nav-bposLogo { display: inline-block; white-space: nowrap; vertical-align: middle; margin-top: 1px; padding-bottom: 1px; }
+.o365cs-nav-header16 .o365cs-nav-brandingText { line-height: 46px; display: inline-block; font-family: "SegoeUI-SemiLight-final","Segoe UI SemiLight","Segoe UI WPC Semilight","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-size: 22px; }
+.o365cs-nav-docTitleText { line-height: normal; display: inline-block; font-size: 18px; }
+.o365cs-nav-header16 .o365cs-nav-centerAlign { display: table-cell; width: 100%; text-align: center; vertical-align: middle; }
+.o365cs-nav-header16 .o365cs-nav-rightAlign { display: table-cell; vertical-align: top; text-align: right; }
+.o365cs-nav-header16 .o365cs-nav-rightMenus { display: table-cell; vertical-align: top; }
+.o365cs-nav-header16 .o365cs-nav-button { display: block; vertical-align: middle; border-width: 0px; margin: 0px; padding: 0px; min-width: 50px; height: 50px; box-sizing: border-box; text-align: center; line-height: normal; overflow: visible; cursor: pointer; outline-offset: -1px; }
+.o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button { border-left: 1px solid rgba(255, 255, 255, 0.3); }
+.o365cs-nav-header16 .o365cs-nav-item { position: relative; transition: background-color 0.467s cubic-bezier(0.1, 0.9, 0.2, 1) 34ms; }
+.o365cs-nav-contextMenu { background-color: rgb(255, 255, 255); border-left: 1px solid rgb(222, 222, 222); border-right: 1px solid rgb(222, 222, 222); border-bottom: 1px solid rgb(222, 222, 222); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); min-width: 180px; max-width: 375px; clip: rect(0px, 10000px, 10000px, -10px); outline: 0px none; }
+.o365cs-nav-contextMenu .o365cs-contextMenuItem, .o365cs-nav-contextMenu .o365cs-contextMenuInactiveItem { display: block; box-sizing: border-box; padding: 10px 30px; font: 15px "SegoeUI-Regular-final","Segoe UI","Segoe UI WPC",Segoe,Tahoma,Helvetica,Arial,sans-serif; text-align: left; outline-offset: -1px; }
+.o365cs-nav-contextMenu .o365cs-contextMenuSeparator { border-top-style: solid; border-top-width: 1px; }
+.o365cs-me-presence5x50 { width: 5px; height: 50px; position: absolute; top: 0px; left: 0px; }
+.o365cs-nav-header16 .o365cs-me-nav-item { border-left: medium none ! important; z-index: 1; min-width: 55px; }
+.o365cs-me-tileview-container { position: absolute; top: 0px; left: 0px; z-index: -1; }
+.o365cs-me-tileview { width: 55px; height: 50px; overflow: hidden; }
+.o365cs-me-presenceColor-Offline { background-color: rgb(182, 207, 216); }
+.o365cs-me-tileimg { width: 50px; height: 50px; overflow: hidden; position: absolute; line-height: normal; top: 0px; left: 5px; }
+.o365cs-me-tileimg-doughboy { width: 52px; height: 49px; font-size: 52px; padding: 3px 0px 0px 2px; left: 0px; position: static; }
+.o365cs-breadCrumb { line-height: 50px; display: inline; }
+.o365cs-breadCrumbTemplate { display: none; }
+.o365cs-breadCrumbContainer { display: inline; padding-left: 10px; }
+.o365cs-breadCrumb:hover { text-decoration: underline; }
+.o365cs-folderSeparator { font-size: 14px; padding-left: 6px; padding-right: 6px; }
+.o365cs-semiLightFont { font-family: "SegoeUI-SemiLight-final","Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif; font-weight: lighter; }
+.wf-o365-placeholder::before { content: ""; }
+.wf-o365-outlooklogo::before { content: ""; }
+.wf-o365-calendar::before { content: ""; }
+.wf-o365-peoplelogo::before { content: ""; }
+.wf-o365-yammerlogo::before { content: ""; }
+.wf-o365-newsfeed::before { content: ""; }
+.wf-o365-cloud::before { content: ""; }
+.wf-o365-tasks::before { content: ""; }
+.wf-o365-projectlogo::before { content: ""; }
+.wf-o365-pulselogo::before { content: ""; }
+.wf-o365-powerbilogo::before { content: ""; }
+.wf-o365-powerbiv2logo::before { content: ""; }
+.wf-o365-crmlogo::before { content: ""; }
+.wf-o365-sociallisteninglogo::before { content: ""; }
+.wf-o365-videologo::before { content: ""; }
+.wf-o365-paraturelogo::before { content: ""; }
+.wf-o365-swaylogo::before { content: ""; }
+.wf-o365-highlanderlogo::before { content: ""; }
+.wf-o365-wordlogo::before { content: ""; }
+.wf-o365-excellogo::before { content: ""; }
+.wf-o365-powerpointlogo::before { content: ""; }
+.wf-o365-onenotelogo::before { content: ""; }
+.wf-o365-sharepointlogo::before { content: ""; }
+.wf-o365-office365adminlogo::before { content: ""; }
+.wf-o365-partner::before { content: ""; }
+.wf-o365-smiley::before { content: ""; }
+.wf-o365-officestorelogo::before { content: ""; }
+.wf-o365-pawlogo::before { content: ""; }
+.wf-o365-homeroomlogo::before { content: ""; }
+.wf-o365-classnotebooklogo::before { content: ""; }
+.wf-o365-compliancecenterlogo::before { content: ""; }
+.wf-o365-staffnotebooklogo::before { content: ""; }
+.wf-o365-powerappslogo::before { content: ""; }
+.wf-o365-collabdblogo::before { content: ""; }
+.wf-o365-skypemeetingslogo::before { content: ""; }
+.wf-o365-bookingslogo::before { content: ""; }
+.wf-o365-dynamicsnavlogo::before { content: ""; }
+/* ::::: https://portal.office.com/data.theme?action=tc&tc=0078D7|000000|FFFFFF|FFFFFF&tt=G2&tv=7570f12d-be8f-4249-9f53-2c7ac9cf4afc&l=en-US ::::: */
+
+.o365cs-base.o365cst .ms-bgc-tdr, .o365cs-base.o365cst .ms-bgc-tdr-h:hover, .o365cs-base.o365cst .ms-bgc-tdr-f:focus { background-color: rgb(0, 76, 137); }
+.o365cs-base.o365cst .ms-fcl-tp, .o365cs-base.o365cst .ms-fcl-tp-h:hover, .o365cs-base.o365cst .ms-fcl-tp-f:focus { color: rgb(0, 120, 215); }
+.o365cs-base.o365cst .ms-bgc-tp, .o365cs-base.o365cst .ms-bgc-tp-h:hover, .o365cs-base.o365cst .ms-bgc-tp-f:focus, .o365cs-base.o365cst.ms-bgc-tp { background-color: rgb(0, 120, 215); }
+.o365cs-base.o365cst .ms-bcl-tp, .o365cs-base.o365cst .ms-bcl-tp-h:hover, .o365cs-base.o365cst .ms-bcl-tp-f:focus { border-color: rgb(0, 120, 215); }
+.o365cs-base.o365cst .ms-fcl-ts, .o365cs-base.o365cst .ms-fcl-ts-h:hover, .o365cs-base.o365cst .ms-fcl-ts-f:focus { color: rgb(59, 153, 224); }
+.o365cs-base.o365cst .ms-fcl-w, .o365cs-base.o365cst .ms-fcl-w-h:hover, .o365cs-base.o365cst .ms-fcl-w-f:focus { color: rgb(255, 255, 255); }
+.o365cs-base.o365cst .ms-bcl-w, .o365cs-base.o365cst .ms-bcl-w-h:hover, .o365cs-base.o365cst .ms-bcl-w-f:focus { border-color: rgb(255, 255, 255); }
+.o365cs-base.o365cst .ms-fcl-b, .o365cs-base.o365cst .ms-fcl-b-h:hover, .o365cs-base.o365cst .ms-fcl-b-f:focus { color: rgb(0, 0, 0); }
+.o365cs-base.o365cst .ms-bgc-nt, .o365cs-base.o365cst .ms-bgc-nt-h:hover, .o365cs-base.o365cst .ms-bgc-nt-f:focus { background-color: rgb(166, 166, 166); }
+.o365cs-base.o365cst .ms-bcl-nl, .o365cs-base.o365cst .ms-bcl-nl-h:hover, .o365cs-base.o365cst .ms-bcl-nl-f:focus { border-color: rgb(234, 234, 234); }
+.o365cs-base.o365cst .o365cs-topnavLinkBackground-2 { background-color: rgb(0, 0, 0); }
+.o365cs-base.o365cst .o365cs-topnavLinkBackground-2 { background-color: rgba(0, 0, 0, 0.8); }
+.o365cs-base.o365cst .o365cs-topnavText, .o365cs-base.o365cst .o365cs-topnavText:hover { color: rgb(255, 255, 255); }
+.o365cs-nav-header16 .o365cs-navMenuButton { color: rgb(255, 255, 255); }
+.o365cs-base.o365cst .o365cs-navMenuButton { color: rgb(255, 255, 255); }
+.o365cs-base.o365cst.o365cs-topnavBGImage { background-position: center top; background-repeat: repeat-x; background-image: none; }
+.o365cs-base.o365cst.o365cs-topnavBGColor-2 { background-color: rgb(0, 0, 0); }

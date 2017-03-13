@@ -1,0 +1,288 @@
+/*-----------------------*/
+
+/* needs brackets to swallow error on dev */
+{
+}
+
+.LoginRow { position:relative;min-width:252px; }
+.LoginRowWelcome { font-size: 20px; }
+.LoginRowLbl { padding:13px 5px 0px 0px; color:#999; }
+.LoginRowLblR { padding: 0px 5px 15px 5px; text-align:right; }
+.LoginBtn { margin:5px; min-width: 101px; }
+.FieldLbl { padding:7px 7px 4px 7px !important; color:#999;}
+.Field { height:28px; line-height: 24px; }
+
+/* Main body - login form and promo */
+.login-area-wrapper {
+    background-color: #fff;
+    width: 500px;
+    right: 50%;
+    position: absolute;
+    top: 67px;
+    bottom: 0;
+}
+.login-area-wrapper .login-area {
+    background-color: #fff;
+    float: right;
+    right: 40px;
+    width: 420px;
+    padding: 70px 40px 20px;
+}
+.login-area-wrapper .login-area h1 {
+    font-family: 'Maven Pro', Arial, sans-serif !important;
+    font-size: 1.9em;
+    letter-spacing: 1px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+}
+.login-area-wrapper .login-area .create-account-link {
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: normal;
+    font-size: 12px;
+    white-space: nowrap;
+    float: right;
+    margin: 10px 0 0;
+    color: #999;
+}
+.login-area-wrapper .login-area a {
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight:500;
+    color: #357EEB;
+    font-size: 12px;
+}
+.login-area-wrapper .login-area a:hover {
+    color: #2359B7;
+    text-decoration: none;
+}
+.login-area-wrapper .login-area a:active {
+    color: #1B49A0;
+}
+.login-area-wrapper .login-area .LoginRow {
+    clear: both;
+}
+.login-area-wrapper .login-area .LoginRow.FieldLbl {
+    font-family: 'Maven Pro', Arial, sans-serif !important;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+    padding-left: 0px !important;
+    margin-top: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.login-area-wrapper .login-area .LoginRow .Field {
+    border: 1px solid #c1c1c1;
+    margin: 5px 0 0;
+    background-color: transparent;
+}
+.login-area-wrapper .login-area .LoginRow .Field:focus {
+    border: 1px solid #357eeb;
+    outline: medium none;
+}
+.login-area-wrapper .login-area .forgot-password-link {
+    float: right;
+    margin-top:3px;
+    font-size: 12px;
+}
+
+.LoginBtn {
+    margin: 0;
+}
+
+.promo-wrapper {
+    width: 45%;
+    position: absolute;
+    right: 1.5%;
+    top: 67px;
+}
+.promo-wrapper .dot-com-frame {
+    height: 348px;
+    margin-left:12%;
+    margin-top:68px;
+    width: 410px;
+    border-radius: 2px;
+}
+.promo-wrapper .dot-com-frame iframe {
+    border-radius: 2px;
+}
+.ErrorMessageText {
+    float: left;
+    margin-top: 3px;
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: #E86B52 !important;
+}
+.login-area-wrapper .login-area .LoginRow .Field.not-valid {
+    border: 1px solid #E86B52;
+}
+/* Janrain */
+.janrainHeader {
+    font-family: 'Maven Pro', Arial, sans-serif !important;
+    font-weight: bold;
+    color: #333 !important;
+    font-size: 13px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.janrainContainer {
+    margin-left: 40px;
+    height: 40px;
+}
+
+.janrainPage ul.providers li {
+    margin-left: 6px;
+}
+
+.janrainContent {
+    width: 287px !important;
+    float: left;
+    overflow: hidden;
+}
+
+.janrainAddOn {
+    float: left;
+    padding-top: 6px;
+}
+
+.janrainAddOn img {
+    height: 30px;
+}
+
+.cartaviLink {
+    margin-top: 24px;
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: normal;
+    text-align:center;
+    font-size: 12px;
+    -webkit-text-size-adjust: 100%;
+}
+
+.session-timeout-banner {
+    background-color: #FEC820;
+    width: 100%;
+    height: 20px;
+    padding: 10px 0;
+    line-height: 20px;
+    text-align: center;
+    position:relative;
+    z-index: 5;
+}
+
+.session-timeout-banner.branded {
+    position: absolute;
+    z-index: 2;
+    top: 51px;
+}
+
+.session-timeout-banner span {
+    padding: 10px;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 1024px)  {
+    .promo-wrapper {
+        display: none;
+    }
+    .login-area-wrapper {
+        left: 50%;
+        margin-left: -250px;
+    }
+    .login-area-wrapper .login-area {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+/* Smartphones, landscape */
+@media only screen and (max-width : 540px) {
+   .login-area-wrapper {
+        margin: 0 auto;
+        position: static;
+    }
+    .ErrorMessageText {
+        width: 400px;
+        float: left;
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+    .login-area-wrapper {
+        width: 318px;
+        left: 7px;
+        margin: 0 auto;
+    }
+    .login-area-wrapper .login-area .create-account-link
+    {
+        float: none;
+        padding-top: 5px;
+        clear: both;
+        display: block;
+    }
+    .login-area-wrapper .login-area {
+        float: none;
+        margin: 0 auto;
+        width: 270px;
+        padding: 24px;
+    }
+    .login-area-wrapper .login-area .LoginRow.FieldLbl {
+        margin-top: 10px;
+    }
+    .login-area-wrapper .login-area .LoginRow.FieldLbl.user-name-label-row {
+        margin-top: 0;
+    }
+    .login-area-wrapper input.Field {
+        width: 250px !important;
+    }
+    .LoginRow {
+        min-width: 0 !important;
+    }
+
+    #janrainProviderPages {
+        width: 200px !important;
+    }
+    .janrainContainer {
+        margin-left: -10px;
+        height: 80px;
+    }
+    .janrainContent {
+        width: 200px !important;
+        overflow: visible !important;
+    }
+    .janrainAddOn {
+        padding-top: 0px;
+        margin-left: 135px;
+        position: relative;
+        top: -1px;
+    }
+    .session-timeout-banner {
+        padding: 8px 0 12px;
+    }
+    .session-timeout-banner div {
+        line-height: 12px;
+        padding: 0 40px;
+        text-align: left;
+    }
+    .session-timeout-banner img {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    .session-timeout-banner span {
+        font-size: 12px;
+        padding: 0;
+    }
+
+}
+
+/*-----------------------*/

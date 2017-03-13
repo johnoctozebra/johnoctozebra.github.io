@@ -1,0 +1,1 @@
+Form originally went to php which redirected user to legitimate Adobe Reader download page. Form verifies if email is in correct form. 

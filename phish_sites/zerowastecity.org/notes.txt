@@ -1,0 +1,1 @@
+All pictures worked in real phishing site and contained the correct logo for each company. It verifies if email is correct and if it is, it will take you to thelegitimate google gmail login page no matter which option you choose. 

@@ -1,0 +1,3 @@
+I was unable to scrape the main phishing page, which impresonated Google's login page pretty well without the drop down menu for other email providers that others usually have because a 404 page was given to users not using IE and I was unable to get the request headers to match IE before the site was down. 
+
+After entering login information the user is presented with the verfication page to verify your phone number. After that form it takes you to the legitimate Google sing in page. 

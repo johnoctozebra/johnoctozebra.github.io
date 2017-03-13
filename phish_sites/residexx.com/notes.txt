@@ -1,0 +1,1 @@
+Original form goes to .php code which either redirects user to legitimate Google 404 page or to the next verification page. Entering any valid phone number or email always redirected user to valid Google 404 page after the php page. 

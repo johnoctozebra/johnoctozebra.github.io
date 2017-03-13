@@ -1,0 +1,1 @@
+Code does not use HTML to create its form and uses /JS instead so forms will still be posted to their server and run their php script which redirects the user to the legitimate dropnox page. No script was modified. It's reccomended that you run this in an isolated enviroment such as a VM. 

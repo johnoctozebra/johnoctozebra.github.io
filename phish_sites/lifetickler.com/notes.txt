@@ -1,0 +1,5 @@
+All forms original go to .php page then takes you to the next form page. The PHP most likely just stored and/or sends the data to phisher then redirects user. Thus, HTML code has been changed to go directly to the next form. Original forms are commented out above new fors. 
+
+From the query username=some_email should automatically fill in the username field and make it uneditable. This seems to be server side script and can not be relicated even with the correct URL parameters. 
+
+Clicking on submit (any bogus one over 3 characters) should take them to a second page phishing for a phone number. That could not be scraped. That page is scraped seperately. 
